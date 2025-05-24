@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(
+    to right,
+    rgb(200,230,200) 5%,  
+    rgb(170,210,170) 17%,
+    rgb(120,160,120) 40%,
+    rgb(70,100,70) 85%,
+    rgb(30,50,30) 95%       
+  );
+}
+
+.negative {
+  background: linear-gradient(
+    to left,
+    rgb(180,200,230) -50%, 
+    rgb(150,170,210) -10%,
+    rgb(120,140,190) 0%,
+    rgb(90,110,150) 100%,
+    rgb(50,60,90) 150%     
+  );
+}
+
+.percents {
+  background: linear-gradient(
+    to bottom,
+    rgb(200,230,200) 2em,
+    rgb(170,210,170) 4em,
+    rgb(120,160,120) 8em,
+    rgb(70,100,70) 16em,
+    rgb(30,50,30) 32em,
+    rgb(20,35,20) 64em,
+    rgb(15,20,15) 128em
+  );
+}
+
+.radial {
+  background:
+    radial-gradient(ellipse at top, rgba(255,165,80,0.8) 0%, rgba(255,165,80,0) 70%),
+    radial-gradient(ellipse at bottom, rgba(220,50,50,0.8) 0%, rgba(220,50,50,0) 70%);
+}
